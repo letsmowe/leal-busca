@@ -1,4 +1,4 @@
-const _PROJECTNAME = 'base';
+const _PROJECTNAME = 'leal-busca';
 
 var gulp = require('gulp'),
 	concat = require('gulp-concat'),
@@ -36,7 +36,7 @@ const tinypngToken = false;
 
 var source = {
 	content: '*',
-	location: './'
+	location: './src/'
 };
 
 source.css = {
@@ -68,7 +68,7 @@ source.images.largePhotos = {
 
 var dist = {
 	content: '*',
-	location: 'dist/'
+	location: './public/dist/'
 };
 
 dist.css = {
@@ -144,7 +144,7 @@ gulp.task('serve', function () {
 	// Serve files from the root of this project
 	browserSync.init({
 		server: {
-			baseDir: "./",
+			baseDir: "./public/",
 			index: "index.html",
 			routes: {
 				"/home": "./index.html"

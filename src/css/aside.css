@@ -1,0 +1,30 @@
+
+/* Aside */
+
+.Aside {
+	height: 100%;
+	padding-top: 4.5em;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 4.5em;
+	z-index: 1;
+}
+
+/* Aside background */
+
+.Aside-background {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+/* Aside inner */
+
+.Aside-inner {
+	height: 100%;
+	position: relative;
+	width: 100%;
+}

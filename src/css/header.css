@@ -1,0 +1,35 @@
+
+/* Header */
+
+.Header {
+	height: 4.5em;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+/* Header background */
+
+.Header-background {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+/* Header inner */
+
+.Header-inner {
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+
+/* Header logo */
+
+.Header-logo {
+
+}

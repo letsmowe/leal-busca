@@ -1,0 +1,33 @@
+
+/* Main */
+
+.Main {
+	height: 100%;
+	position: relative;
+	width: 100%;
+	z-index: 0;
+}
+
+/* Main background */
+
+.Main-background {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+/* Main inner */
+
+.Main-inner {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	height: 100%;
+	padding: 4.5em 0 0 4.5em;
+	position: relative;
+	width: 100%;
+}

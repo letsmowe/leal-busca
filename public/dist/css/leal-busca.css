@@ -1,0 +1,193 @@
+/*!
+ * Elbit Leal Busca Project v0.0.1 (http://elbit.com.br/)
+ * Copyright 2013-2016 Elbit Cookies
+ * Licensed under MIT (https://github.com/mowekabanas/base/blob/master/LICENSE)
+*/
+
+body {
+  overflow: hidden;
+  height: 100vh;
+}
+/* Aside */
+
+.Aside {
+  height: 100%;
+  padding-top: 4.5em;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 4.5em;
+  z-index: 1;
+}
+
+/* Aside background */
+
+.Aside-background {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* Aside inner */
+
+.Aside-inner {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+/* Categories Item */
+
+.CategoriesItem {
+  width: 100%;
+}
+
+.CategoriesItem-select-area {
+  background-color: #fafafa;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  padding: 1em;
+  width: 100%;
+}
+
+.CategoriesItem:nth-child(even) .CategoriesItem-select-area {
+  background-color: #f5f5f5;
+}
+
+.CategoriesItem-select-area span {
+  color: #d32f2f;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+/* Categories Nav Item */
+
+
+/* Categories Nav */
+
+
+/* Categories */
+
+.Categories {
+  width: 100%;
+  height: 100%;
+}
+
+/* Categories background */
+
+.Categories-background {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* Categories inner */
+
+.Categories-inner {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  width: 100%;
+}
+
+/* Categories list */
+
+.Categories-list {
+  width: 100%;
+}
+/* Footer */
+
+
+/* Header */
+
+.Header {
+  height: 4.5em;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+/* Header background */
+
+.Header-background {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* Header inner */
+
+.Header-inner {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+/* Header logo */
+
+
+/* Logo */
+
+.Logo {
+  height: 4.5em;
+  width: 4.5em;
+}
+
+.Logo-select-area {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  padding: .5em;
+}
+
+.Logo img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+/* Main */
+
+.Main {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+
+/* Main background */
+
+.Main-background {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* Main inner */
+
+.Main-inner {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+  padding: 4.5em 0 0 4.5em;
+  position: relative;
+  width: 100%;
+}
+/* Search */
+
