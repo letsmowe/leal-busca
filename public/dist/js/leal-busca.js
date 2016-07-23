@@ -4,6 +4,40 @@
  * Licensed under MIT (https://github.com/mowekabanas/base/blob/master/LICENSE)
 */
 
+/* Categories Item */
+
+var CategoriesItem = (function () {
+
+	/**
+	 * Categories Item constructor
+	 * @constructor
+	 */
+	function CategoriesItem(element) {
+
+		this.element = element;
+
+		this.header = false;
+		this.icon = false;
+		this.title = false;
+
+		if (this.element)
+			this.init();
+
+	}
+
+	CategoriesItem.prototype.init = function () {
+
+		console.log(this.element);
+
+		// TODO
+		// obter elementos aqui....
+
+	};
+
+	return CategoriesItem;
+
+})();
+
 /* Categories Nav */
 
 var CategoriesNav = (function () {
@@ -12,7 +46,7 @@ var CategoriesNav = (function () {
 	 * Categories Nav constructor
 	 * @constructor
 	 */
-	function CategoriesNav(element) {
+	function CategoriesNav(element, categories) {
 
 		this.element = element;
 
@@ -34,7 +68,25 @@ var Categories = (function () {
 
 		this.element = element;
 
+		this.items = [];
+
+		if (this.element)
+			this.init();
+
 	}
+
+	Categories.prototype.init = function () {
+
+		var items = this.element.querySelectorAll('.CategoriesItem');
+
+		for (var i = items.length; i--; )
+		{
+
+			this.items.push(new CategoriesItem(items[i]));
+
+		}
+
+	};
 
 	return Categories;
 

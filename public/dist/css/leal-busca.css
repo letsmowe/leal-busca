@@ -76,6 +76,20 @@ body {
   height: 100%;
 }
 
+/* Categories h3 */
+
+.Categories h3 {
+  border-top: solid 1px #bdbdbd;
+  font-weight: 400;
+  margin-top: 1.5rem;
+  padding: 1rem .3em .375em 1rem;
+  width: 100%;
+}
+
+.Categories h3:first-of-type {
+  margin-top: 1rem;
+}
+
 /* Categories background */
 
 .Categories-background {
