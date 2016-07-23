@@ -27,7 +27,7 @@
 	display: -webkit-flex;
 	display: flex;
 	height: 100%;
-	padding: 4.5em 0 0 4.5em;
+	padding: 4.5em 0 0;
 	position: relative;
 	width: 100%;
 }

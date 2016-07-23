@@ -22,8 +22,6 @@ var CategoriesItem = (function () {
 
 	CategoriesItem.prototype.init = function () {
 
-		console.log(this.element);
-
 		// TODO
 		// obter elementos aqui....
 
