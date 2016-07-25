@@ -2,5 +2,76 @@
 /* Categories Nav Item */
 
 .CategoriesNavItem {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: flex-end;
+	justify-content: flex-end;
+	text-align: right;
+	flex: 1;
+	min-width: 2.25em;
+}
 
+/* Categories Nav Item select area */
+
+.CategoriesNavItem-select-area {
+	background-color: transparent;
+	cursor: pointer;
+	padding: 0 1em;
+	position: relative;
+	width: 100%;
+}
+
+.CategoriesNavItem-select-area:after {
+	background-color: transparent;
+	content: '';
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	-webkit-transition: background .3s;
+	-moz-transition: background .3s;
+	-ms-transition: background .3s;
+	-o-transition: background .3s;
+	transition: background .3s;
+	width: .325em;
+}
+
+.CategoriesNavItem-select-area.has-focus {
+	-webkit-transition: background .6s;
+	-moz-transition: background .6s;
+	-ms-transition: background .6s;
+	-o-transition: background .6s;
+	transition: background .6s;
+}
+
+.CategoriesNavItem-select-area.has-focus:after,
+.CategoriesNavItem-select-area:focus:after,
+.CategoriesNavItem-select-area:hover:after {
+	-webkit-transition: background .3s;
+	-moz-transition: background .3s;
+	-ms-transition: background .3s;
+	-o-transition: background .3s;
+	transition: background .3s;
+	background-color: #f44336;
+}
+
+/* Categories Nav Item span */
+
+.CategoriesNavItem span {
+	color: #757575;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+.CategoriesNavItem-select-area:focus span,
+.CategoriesNavItem-select-area:hover span {
+	color: #212121;
+	font-weight: 900;
+	font-size: 1.5em;
 }

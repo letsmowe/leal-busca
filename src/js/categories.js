@@ -33,13 +33,14 @@ var Categories = (function () {
 		var titles = this.element.querySelectorAll('.Categories-title');
 
 		for (var i = 0; i < titles.length; i++)
-			this.titles.push(new CategoriesItem(titles[i]));
+			this.titles.push(titles[i]);
 
 	};
 
 	Categories.prototype.init = function () {
 
 		this.getItems();
+		this.getTitles();
 		// this.getTitles(); // title get with item (returns item object with icon and title)
 
 	};

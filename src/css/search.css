@@ -1,6 +1,43 @@
-
 /* Search */
 
 .Search {
+	position: relative;
+}
 
+/* Search background */
+
+.Search-background {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+/* Search inner */
+
+.Search-inner {
+	-webkit-align-items: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	height: 100%;
+	padding: 1em 2.25em;
+	position: relative;
+	width: 100%;
+}
+
+.Search-input {
+	border: none;
+	background: none;
+	font-weight: 900;
+	height: 100%;
+	letter-spacing: 1pt;
+	text-transform: uppercase;
+	width: 100%;
 }

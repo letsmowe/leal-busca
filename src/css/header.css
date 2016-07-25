@@ -23,6 +23,11 @@
 /* Header inner */
 
 .Header-inner {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
 	height: 100%;
 	position: relative;
 	width: 100%;
@@ -32,4 +37,10 @@
 
 .Header-logo {
 
+}
+
+/* Header search */
+
+.Header-search {
+	flex: 1;
 }

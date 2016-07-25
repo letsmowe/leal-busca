@@ -21,7 +21,7 @@
 .CategoriesItem-icon span {
 	-webkit-align-items: center;
 	align-items: center;
-	background-color: #b71c1c;
+	/*background-color: #b71c1c;*/
 	border-radius: 50%;
 	color: #ffffff;
 	display: -webkit-box;

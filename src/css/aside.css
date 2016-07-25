@@ -7,7 +7,6 @@
 	position: fixed;
 	right: 0;
 	top: 0;
-	width: 4.5em;
 	z-index: 1;
 }
 
@@ -24,7 +23,14 @@
 /* Aside inner */
 
 .Aside-inner {
+
 	height: 100%;
 	position: relative;
 	width: 100%;
+}
+
+/* Aside categories nav */
+
+.Aside-categories-nav {
+	height: 100%;
 }

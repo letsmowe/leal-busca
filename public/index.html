@@ -16,9 +16,9 @@
 <script src="dist/js/classList.min.js"></script>
 <![endif]-->
 
-<body>
+<body class="grey-50">
 
-<header class="Header grey-300">
+<header class="Header grey-200">
 
 	<div class="Header-background"></div>
 
@@ -34,19 +34,31 @@
 			
 		</div>
 
-		<div class="Search Header-search"></div>
+		<div class="Search Header-search">
+
+			<div class="Search-background"></div>
+
+			<div class="Search-inner">
+
+				<input class="Search-input" type="text" placeholder="busque no guia! :)"/>
+
+				<span class="fa fa-search font-grey-400"></span>
+
+			</div>
+
+		</div>
 
 	</div>
 
 </header>
 
-<aside class="Aside grey-200">
+<aside class="Aside">
 
 	<div class="Aside-background"></div>
 
 	<div class="Aside-inner">
 
-		<nav id="categories-nav" class="CategoriesNav">
+		<nav id="categories-nav" class="CategoriesNav Aside-categories-nav">
 
 			<div class="CategoriesNav-background"></div>
 
@@ -54,7 +66,11 @@
 
 				<ul class="CategoriesNav-list">
 
-					<li class="CategoriesNavItem"></li>
+					<li class="CategoriesNavItem">
+
+						<a href="#" class="CategoriesNavItem-select-area"></a>
+
+					</li>
 
 				</ul>
 
@@ -78,7 +94,7 @@
 
 			<div class="Categories-inner">
 
-				<h3 class="Categories-title">A</h3>
+				<h3 class="Categories-title" data-letter="A">A</h3>
 
 				<ul class="Categories-list">
 
@@ -88,7 +104,7 @@
 
 							<span class="CategoriesItem-icon">
 
-								<span>A</span>
+								<span class="fa fa-bicycle"></span>
 
 							</span>
 
@@ -300,7 +316,7 @@
 
 				</ul>
 
-				<h3 class="Categories-title">B</h3>
+				<h3 class="Categories-title" data-letter="B">B</h3>
 
 				<ul class="Categories-list">
 
@@ -376,7 +392,7 @@
 
 				</ul>
 
-				<h3 class="Categories-title">C</h3>
+				<h3 class="Categories-title" data-letter="C">C</h3>
 
 				<ul class="Categories-list">
 
@@ -592,7 +608,7 @@
 
 				</ul>
 
-				<h3 class="Categories-title">D</h3>
+				<h3 class="Categories-title" data-letter="D">D</h3>
 
 				<ul class="Categories-list">
 
@@ -728,7 +744,7 @@
 
 				</ul>
 
-				<h3 class="Categories-title">E</h3>
+				<h3 class="Categories-title" data-letter="E">E</h3>
 
 				<ul class="Categories-list">
 
@@ -844,7 +860,7 @@
 
 				</ul>
 
-				<h3 class="Categories-title">F</h3>
+				<h3 class="Categories-title" data-letter="F">F</h3>
 
 				<ul class="Categories-list">
 
@@ -940,7 +956,7 @@
 
 				</ul>
 
-				<h3 class="Categories-title">G</h3>
+				<h3 class="Categories-title" data-letter="G">G</h3>
 
 				<ul class="Categories-list">
 
@@ -996,7 +1012,7 @@
 
 				</ul>
 
-				<h3 class="Categories-title">H</h3>
+				<h3 class="Categories-title" data-letter="H">H</h3>
 
 				<ul class="Categories-list">
 
@@ -1022,7 +1038,7 @@
 
 				</ul>
 
-				<h3 class="Categories-title">I</h3>
+				<h3 class="Categories-title" data-letter="I">I</h3>
 
 				<ul class="Categories-list">
 
@@ -1058,7 +1074,7 @@
 
 				</ul>
 
-				<h3 class="Categories-title">J</h3>
+				<h3 class="Categories-title" data-letter="J">J</h3>
 
 				<ul class="Categories-list">
 
@@ -1074,7 +1090,7 @@
 
 				</ul>
 
-				<h3 class="Categories-title">L</h3>
+				<h3 class="Categories-title" data-letter="L">L</h3>
 
 				<ul class="Categories-list">
 
@@ -1180,7 +1196,7 @@
 
 				</ul>
 
-				<h3 class="Categories-title">M</h3>
+				<h3 class="Categories-title" data-letter="M">M</h3>
 
 				<ul class="Categories-list">
 
@@ -1296,7 +1312,7 @@
 
 				</ul>
 
-				<h3 class="Categories-title">O</h3>
+				<h3 class="Categories-title" data-letter="O">O</h3>
 
 				<ul class="Categories-list">
 
@@ -1322,7 +1338,7 @@
 
 				</ul>
 
-				<h3 class="Categories-title">P</h3>
+				<h3 class="Categories-title" data-letter="P">P</h3>
 
 				<ul class="Categories-list">
 
@@ -1498,7 +1514,7 @@
 
 				</ul>
 
-				<h3 class="Categories-title">R</h3>
+				<h3 class="Categories-title" data-letter="R">R</h3>
 
 				<ul class="Categories-list">
 
@@ -1594,7 +1610,7 @@
 
 				</ul>
 
-				<h3 class="Categories-title">S</h3>
+				<h3 class="Categories-title" data-letter="S">S</h3>
 
 				<ul class="Categories-list">
 
@@ -1740,7 +1756,7 @@
 
 				</ul>
 
-				<h3 class="Categories-title">T</h3>
+				<h3 class="Categories-title" data-letter="T">T</h3>
 
 				<ul class="Categories-list">
 
@@ -1766,7 +1782,7 @@
 
 				</ul>
 
-				<h3 class="Categories-title">V</h3>
+				<h3 class="Categories-title" data-letter="V">V</h3>
 
 				<ul class="Categories-list">
 
