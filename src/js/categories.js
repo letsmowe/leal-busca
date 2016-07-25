@@ -23,7 +23,7 @@ var Categories = (function () {
 
 		var items = this.element.querySelectorAll('.CategoriesItem');
 
-		for (var i = items.length; i--; )
+		for (var i = 0; i < items.length; i++)
 			this.items.push(new CategoriesItem(items[i]));
 
 	};
@@ -32,7 +32,7 @@ var Categories = (function () {
 
 		var titles = this.element.querySelectorAll('.Categories-title');
 
-		for (var i = titles.length; i--; )
+		for (var i = 0; i < titles.length; i++)
 			this.titles.push(new CategoriesItem(titles[i]));
 
 	};
@@ -40,7 +40,7 @@ var Categories = (function () {
 	Categories.prototype.init = function () {
 
 		this.getItems();
-		this.getTitles();
+		// this.getTitles(); // title get with item (returns item object with icon and title)
 
 	};
 
