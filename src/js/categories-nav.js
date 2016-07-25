@@ -34,11 +34,6 @@ var CategoriesNav = (function () {
 
 			var pageY = h[st]||b[st];
 
-			if (event.path)
-				pageY = event.path;
-			else
-				pageY = event.pageY;
-
 			var itemsLenght = self.items.length;
 
 			var current = false;
@@ -59,7 +54,7 @@ var CategoriesNav = (function () {
 
 		this.onItemClick = function () {
 
-			var scrollItem = self.categories.element.querySelector('[data-letter=' + this.item + ']');
+			var scrollItem = self.categories.element.querySelector('[data-letter=' + this.item.dataset.letter + ']');
 
 			if (scrollItem) {
 
